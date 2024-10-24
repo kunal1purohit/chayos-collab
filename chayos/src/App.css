@@ -1,0 +1,66 @@
+/* App Component Styles */
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.info-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.info-button:hover {
+  color: #e60000;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer p strong {
+  color: #e60000;
+}
+
+
+.twitter-feed {
+  margin-top: 40px;
+}
+
+.twitter-timeline {
+  border: none !important;
+}
+
+.twitter-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+footer p {
+  color: #fff;
+  font-size: 18px;
+}
+
+footer p strong {
+  color: #e60000;
+}

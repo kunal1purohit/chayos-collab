@@ -1,0 +1,51 @@
+.random-number-box {
+    margin-top: 30px;
+  }
+  
+  .digit-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .digit-segment {
+    width: 60px;
+    height: 80px;
+    background-color: #1a1a1a;
+    color: #e60000;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e60000;
+    border-radius: 10px;
+  }
+  
+  .random-number-box button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .random-number-box button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .random-number-box button:disabled,
+  .random-number-box .disabled-button {
+    background-color: #555;
+    cursor: not-allowed;
+  }
+  
+  .disabled-message {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
